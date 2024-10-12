@@ -1,0 +1,661 @@
+!SESSION 2024-10-12 07:50:17.339 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.12
+java.vendor=Ubuntu
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  --pipe=/tmp/lsp-21dee877501255b31c98218854e3dc3c.sock
+Command-line arguments:  -data /home/student_01_455002050396/.codeoss/data/User/workspaceStorage/-4979aed5/redhat.java/jdt_ws --pipe=/tmp/lsp-21dee877501255b31c98218854e3dc3c.sock
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:27.217
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:28.136
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:30.272
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:30.281
+!MESSAGE Initializing Java Language Server 1.37.0.202406190804
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:30.287
+!MESSAGE Started org.eclipse.m2e.core 1ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:30.300
+!MESSAGE ProjectRegistryRefreshJob finished 6ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:30.407
+!MESSAGE Started org.eclipse.buildship.core 106ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:30.797
+!MESSAGE Setting /usr/lib/jvm/java-21-openjdk-amd64 as 'JavaSE-21' environment (id:1728719430718)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:30.837
+!MESSAGE Setting /usr/lib/jvm/java-11-openjdk-amd64 as 'JavaSE-11' environment (id:1728719430808)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:30.853
+!MESSAGE Setting /usr/lib/jvm/java-17-openjdk-amd64 as 'JavaSE-17' environment (id:1728719430612)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:30.855
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:30.902
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/server/com.microsoft.java.debug.plugin-0.52.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:30.912
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/server/com.microsoft.jdtls.ext.core-0.23.6.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:30.934
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-api_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:30.944
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:30.947
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-migrationsupport_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:30.955
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-params_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:30.968
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:30.985
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:30.997
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-launcher_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.006
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-runner_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.018
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-suite-api_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.036
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-suite-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.042
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-suite-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.055
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-vintage-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.060
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.077
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.089
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.096
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.109
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.jacoco.core_0.8.12.202403310830.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.114
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/com.microsoft.java.test.plugin-0.41.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.125
+!MESSAGE Installed reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-maven/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.154
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-launcher_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.164
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-api_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.179
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.215
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-suite-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.217
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-suite-api_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.218
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.apiguardian.api_1.1.2.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.219
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.opentest4j_1.2.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.235
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-runner_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.256
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-migrationsupport_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.273
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-vintage-engine_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.274
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.296
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.eclipse.jdt.junit5.runtime_1.1.100.v20220907-0450.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.297
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-engine_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.350
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-debug/server/com.microsoft.java.debug.plugin-0.52.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.351
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-platform-suite-commons_1.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.406
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-maven/jdtls.ext/com.microsoft.java.maven.plugin/target/com.microsoft.java.maven.plugin-0.39.0.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.414
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.eclipse.jdt.junit4.runtime_1.3.0.v20220609-1843.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.441
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/com.microsoft.java.test.plugin-0.41.1.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.442
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/junit-jupiter-params_5.9.3.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.475
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-dependency/server/com.microsoft.jdtls.ext.core-0.23.6.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.482
+!MESSAGE Started reference:file:/google/devshell/editor/code-oss-for-cloud-shell/extensions/vscjava.vscode-java-test/server/org.jacoco.core_0.8.12.202403310830.jar
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.494
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.494
+!MESSAGE Non-Static Commands: [java.project.import, java.project.changeImportedProjects, java.navigate.openTypeHierarchy, java.project.resolveStackTraceLocation, java.edit.handlePasteEvent, java.edit.stringFormatting, java.project.getSettings, java.project.resolveWorkspaceSymbol, java.project.upgradeGradle, java.project.createModuleInfo, java.vm.getAllInstalls, java.edit.organizeImports, java.project.refreshDiagnostics, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.updateSettings, java.project.getAll, java.reloadBundles, java.project.isTestFile, java.project.resolveText, java.project.getClasspaths, java.navigate.resolveTypeHierarchy, java.edit.smartSemicolonDetection, java.project.updateSourceAttachment, java.project.updateClassPaths, java.decompile, java.protobuf.generateSources, java.project.resolveSourceAttachment, java.project.updateJdk, java.project.addToSourcePath, java.completion.onDidSelect]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.495
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.496
+!MESSAGE Non-Static Commands: [vscode.java.checkProjectSettings, vscode.java.isOnClasspath, vscode.java.fetchUsageData, vscode.java.validateLaunchConfig, vscode.java.resolveInlineVariables, vscode.java.resolveClassFilters, vscode.java.resolveMainMethod, vscode.java.resolveClasspath, vscode.java.resolveBuildFiles, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.resolveSourceUri, vscode.java.fetchPlatformSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection, vscode.java.resolveJavaExecutable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.498
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.499
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.499
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.500
+!MESSAGE Non-Static Commands: [vscode.java.test.jacoco.getCoverageDetail, vscode.java.test.findJavaProjects, vscode.java.test.findTestPackagesAndTypes, vscode.java.test.findTestTypesAndMethods, vscode.java.test.resolvePath, vscode.java.test.findTestLocation, vscode.java.test.get.testpath, vscode.java.test.findDirectTestChildrenForClass, vscode.java.test.navigateToTestOrTarget, vscode.java.test.junit.argument, vscode.java.test.generateTests]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.501
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.501
+!MESSAGE Non-Static Commands: [java.project.refreshLib, java.project.checkImportStatus, java.project.list, java.project.generateJar, java.project.getMainClasses, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.532
+!MESSAGE RepositoryRegistryUpdateJob finished 0ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.589
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:50:31.804
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:51:06.933
+!MESSAGE Workspace initialized in 35402ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:51:06.953
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:51:17.033
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:51:17.034
+!MESSAGE >> registerWatchers'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 07:51:17.044
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:10.701
+!MESSAGE >> java/validateDocument
+
+!ENTRY java-debug 1 0 2024-10-12 08:12:10.933
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:11.155
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:11.863
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:11.866
+!MESSAGE 3 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:11.868
+!MESSAGE Validated 1. Took 112 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:44.982
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:45.562
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:45.567
+!MESSAGE 10 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:45.570
+!MESSAGE Validated 1. Took 182 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:46.748
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:46.759
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:47.054
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:47.379
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:47.382
+!MESSAGE 10 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:47.387
+!MESSAGE Validated 1. Took 206 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:50.927
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:51.396
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:51.397
+!MESSAGE 10 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:12:51.400
+!MESSAGE Validated 1. Took 72 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:14.639
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:15.167
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:15.167
+!MESSAGE 10 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:15.170
+!MESSAGE Validated 1. Took 80 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:15.448
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:15.973
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:15.976
+!MESSAGE 10 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:15.981
+!MESSAGE Validated 1. Took 81 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:17.291
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:17.867
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:17.874
+!MESSAGE 10 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:17.881
+!MESSAGE Validated 1. Took 100 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:21.273
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:21.790
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:21.791
+!MESSAGE 10 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:21.792
+!MESSAGE Validated 1. Took 104 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:22.723
+!MESSAGE Reconciled 1. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:23.086
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:23.643
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:23.645
+!MESSAGE 10 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:23.646
+!MESSAGE Validated 1. Took 153 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:25.731
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:26.297
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:26.298
+!MESSAGE 10 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:26.303
+!MESSAGE Validated 1. Took 147 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:27.255
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:27.783
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:27.784
+!MESSAGE 10 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:27.794
+!MESSAGE Validated 1. Took 136 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:28.658
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:29.112
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:29.113
+!MESSAGE 10 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:29.115
+!MESSAGE Validated 1. Took 43 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:29.196
+!MESSAGE Reconciled 1. Took 5 ms
+
+!ENTRY org.eclipse.jdt.core 4 4 2024-10-12 08:13:29.357
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: jdt.ls-java-project
+!STACK 1
+Java Model Exception: Error in Java Model (code -1): '8en8' is not a valid Java identifier
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:574)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:233)
+	at org.eclipse.jdt.internal.core.SourceRefElement.generateInfos(SourceRefElement.java:128)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:585)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:308)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:294)
+	at org.eclipse.jdt.internal.core.Member.getNameRange(Member.java:399)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.createProblemFor(AbstractImageBuilder.java:443)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.acceptResult(AbstractImageBuilder.java:194)
+	at org.eclipse.jdt.internal.compiler.Compiler.processCompiledUnits(Compiler.java:614)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:474)
+	at org.eclipse.jdt.internal.compiler.Compiler.compile(Compiler.java:425)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:410)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.compile(IncrementalImageBuilder.java:370)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.compile(AbstractImageBuilder.java:341)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.incrementalBuildLoop(IncrementalImageBuilder.java:190)
+	at org.eclipse.jdt.internal.core.builder.IncrementalImageBuilder.build(IncrementalImageBuilder.java:147)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildDeltas(JavaBuilder.java:304)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:221)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1077)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:352)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:441)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:444)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:555)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:503)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:585)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:207)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:300)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 -1 2024-10-12 08:13:29.358
+!MESSAGE '8en8' is not a valid Java identifier
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:29.615
+!MESSAGE Timeout while waiting for completion of job: Download sources and javadoc(54)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2024-10-12 08:13:29.626
+!MESSAGE Unable to load IDecompiler class for jarFileContentProvider
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:29.701
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:29.705
+!MESSAGE 10 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:29.707
+!MESSAGE Validated 1. Took 103 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:30.371
+!MESSAGE Reconciled 1. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:30.762
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:31.965
+!MESSAGE Reconciled 1. Took 303 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:33.644
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:34.160
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:34.161
+!MESSAGE 10 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:34.162
+!MESSAGE Validated 1. Took 117 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:39.181
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:39.705
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:39.707
+!MESSAGE 10 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:13:39.711
+!MESSAGE Validated 1. Took 80 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:08.620
+!MESSAGE Reconciled 1. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:09.130
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:09.134
+!MESSAGE 8 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:09.137
+!MESSAGE Validated 1. Took 66 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:10.394
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:10.888
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:10.888
+!MESSAGE 8 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:10.890
+!MESSAGE Validated 1. Took 45 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:40.009
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:40.441
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:40.442
+!MESSAGE 8 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:40.444
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:40.754
+!MESSAGE Reconciled 1. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:41.408
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:41.409
+!MESSAGE 4 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:41.411
+!MESSAGE Validated 1. Took 102 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:42.631
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:43.172
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:43.173
+!MESSAGE 4 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:15:43.175
+!MESSAGE Validated 1. Took 92 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:03.327
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:03.846
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:03.847
+!MESSAGE 4 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:03.850
+!MESSAGE Validated 1. Took 72 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:05.184
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:05.637
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:05.641
+!MESSAGE 4 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:05.642
+!MESSAGE Validated 1. Took 56 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:12.444
+!MESSAGE Reconciled 1. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:12.888
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:12.889
+!MESSAGE 4 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:12.889
+!MESSAGE Validated 1. Took 44 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:14.496
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:14.982
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:14.982
+!MESSAGE 4 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:14.984
+!MESSAGE Validated 1. Took 38 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:18.030
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:18.570
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:18.571
+!MESSAGE 4 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:16:18.572
+!MESSAGE Validated 1. Took 92 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:21:37.296
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:21:37.779
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:21:37.781
+!MESSAGE 5 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:21:37.784
+!MESSAGE Validated 1. Took 36 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:21:39.131
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:21:39.625
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:21:39.626
+!MESSAGE 5 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:21:39.629
+!MESSAGE Validated 1. Took 47 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:22:23.152
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:22:23.637
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:22:23.637
+!MESSAGE 5 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:22:23.638
+!MESSAGE Validated 1. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:22:23.814
+!MESSAGE Reconciled 1. Took 3 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:22:24.362
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:22:24.363
+!MESSAGE 3 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:22:24.364
+!MESSAGE Validated 1. Took 98 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:22:26.048
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:22:26.551
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:22:26.551
+!MESSAGE 3 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:22:26.552
+!MESSAGE Validated 1. Took 53 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:22:30.497
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:22:31.002
+!MESSAGE begin problem for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:22:31.002
+!MESSAGE 3 problems reported for /FrontendController.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2024-10-12 08:22:31.003
+!MESSAGE Validated 1. Took 56 ms
